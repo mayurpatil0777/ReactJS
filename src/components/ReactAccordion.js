@@ -13,7 +13,7 @@ class ReactAccordion extends Component {
         return (
             <div className="col-12">
                 <div className="col-8">
-                 <Accordion>
+                 <Accordion preExpanded={[0]}>
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
